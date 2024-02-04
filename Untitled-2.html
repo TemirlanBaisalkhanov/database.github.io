@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataBase</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="inputField">
+        <button type="button" onclick="displayInput()"></button>
+    </form>
+
+    <p id="output"></p>
+
+    <script>
+        function displayInput() {
+            document.getElementById("output").innerHTML += document.getElementById("inputField").value + "<br>";
+        }
+    </script>
+
+</body>
+</html>
